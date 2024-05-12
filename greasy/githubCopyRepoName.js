@@ -1,3 +1,5 @@
+/** @format */
+
 // ==UserScript==
 // @name         Copy GitHub Repo Name
 // @name:en      Copy GitHub Repo Name
@@ -19,7 +21,7 @@
 // @license           Apache-2.0
 // @homepageURL       https://github.com/Edit-Mr/SSS/tree/main
 // @supportURL        https://github.com/Cat7373/remove-web-limits/issues/
-// @updateURL         
+// @updateURL         https://raw.githubusercontent.com/Edit-Mr/SSS/main/greasy/githubCopyRepoName.js
 // ==/UserScript==
 
 (function () {
