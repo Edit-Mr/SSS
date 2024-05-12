@@ -15,10 +15,10 @@
 // @match        https://github.com/*
 // @icon         https://emtech.cc/icons/apple-touch-icon.png
 // @grant        none
-// @version           1.0
+// @version           1.1
 // @license           Apache-2.0
 // @homepageURL       https://github.com/Edit-Mr/SSS/tree/main
-// @supportURL        https://github.com/Cat7373/remove-web-limits/issues/
+// @supportURL        https://github.com/Edit-Mr/SSS/issues
 // @updateURL         https://raw.githubusercontent.com/Edit-Mr/SSS/main/greasy/githubCopyRepoName.js
 // ==/UserScript==
 
