@@ -1,5 +1,3 @@
-/** @format */
-
 // ==UserScript==
 // @name         Copy GitHub Repo Name
 // @name:en      Copy GitHub Repo Name
