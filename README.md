@@ -1,5 +1,11 @@
-# Shadow Script Sanctum 影之腳本聖所
+<div align=center>
 
+# 影之腳本聖所
+Shadow Script Sanctum
+
+</div>
+
+--------------
 歡迎來到影之腳本聖所，這裡是黑暗力量的據點，蘊藏了各種神秘而強大的腳本，等待勇者的探索與使用。
 
 > Repo 叫做 SSS 因為這樣比較短比較好打，clone 起來比較方便。
