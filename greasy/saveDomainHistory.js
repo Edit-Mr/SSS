@@ -12,7 +12,7 @@
 (function() {
     'use strict';
     GM_addElement(document.body, 'img', {
-        src: 'https://pc.elvismao.com/site/'+window.location.hostname,
+        src: 'https://example.com/'+window.location.hostname,
         style: 'width: 0; height: 0; visibility:none;',
     });
 })();
