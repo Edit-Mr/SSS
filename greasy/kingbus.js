@@ -1,10 +1,26 @@
 // ==UserScript==
-// @name         Kingbus Autofill + Submit
+// @name         國光客運自動訂票
+// @name:en      Kingbus Autofill
+// @name:zh-CN   国光客运自动订票
+// @name:zh-TW   國光客運自動訂票
+// @name:zh      國光客運自動訂票
 // @namespace    http://tampermonkey.net/
-// @version      1.1
-// @description  Autofill and submit Kingbus order form step by step
+// @version      2025-12-02
+// @description  自動填入查詢國光客運訂票系統
+// @description:en  Autofill and submit Kingbus order form step by step
+// @description:zh-CN  自动填入查询国光客运订票系统
+// @description:zh-TW  自動填入查詢國光客運訂票系統
+// @description:zh  自動填入查詢國光客運訂票系統
+// @version      1.2
+// @author       Elvis Mao
 // @match        https://order.kingbus.com.tw/ORD/ORD_M_1510_OrderGo.aspx
+// @match        https://order.kingbus.com.tw/ORD/ORD_M_1520_OrderGo.aspx
+// @icon         https://emtech.cc/icons/apple-touch-icon.png
 // @grant        none
+// @license           Apache-2.0
+// @homepageURL       https://github.com/Edit-Mr/SSS/tree/main
+// @supportURL        https://github.com/Edit-Mr/SSS/issues
+
 // ==/UserScript==
 
 (function () {
