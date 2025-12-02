@@ -5,7 +5,7 @@
 // @name:zh-TW   複製 GitHub 倉庫名
 // @name:zh      複製 GitHub 倉庫名
 // @namespace    http://tampermonkey.net/
-// @version      2024-05-12
+// @version      2025-12-02
 // @description  Create a button to copy the repo name (owner/repo) on GitHub
 // @description:en  Create a button to copy the repo name (owner/repo) on GitHub
 // @description:zh-CN  在 GitHub 页面上添加一个按钮，点击后可以复制仓库名（owner/repo）
@@ -15,11 +15,11 @@
 // @match        https://github.com/*
 // @icon         https://emtech.cc/icons/apple-touch-icon.png
 // @grant        none
-// @version           1.1
 // @license           Apache-2.0
 // @homepageURL       https://github.com/Edit-Mr/SSS/tree/main
 // @supportURL        https://github.com/Edit-Mr/SSS/issues
-// @updateURL         https://raw.githubusercontent.com/Edit-Mr/SSS/main/greasy/githubCopyRepoName.js
+// @downloadURL https://update.greasyfork.org/scripts/494749/Copy%20GitHub%20Repo%20Name.user.js
+// @updateURL https://update.greasyfork.org/scripts/494749/Copy%20GitHub%20Repo%20Name.meta.js
 // ==/UserScript==
 
 (function () {
@@ -43,5 +43,6 @@
             console.error("Failed to copy repo name");
         }
     });
+    document.querySelector("#repo-title-component strong").style = "display: inline!important"
     document.querySelector("#repo-title-component strong").appendChild(button);
 })();
